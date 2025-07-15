@@ -3,7 +3,7 @@ applications:
 - name: explore-inclusion
   path: .
   memory: 1G
-  random-route: true
+  random-route: false
   instances: 1
   path: target/emoji-inclusion-1.0.o.jar
   env:
